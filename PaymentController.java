@@ -1,9 +1,9 @@
-package com.brillio.paymentgateway.controller;
+package com.paymentgateway.controller;
 
-import com.brillio.paymentgateway.dto.PaymentRequest;
-import com.brillio.paymentgateway.dto.PaymentResponse;
-import com.brillio.paymentgateway.dto.RefundRequest;
-import com.brillio.paymentgateway.service.PaymentService;
+import com.paymentgateway.dto.PaymentRequest;
+import com.paymentgateway.dto.PaymentResponse;
+import com.paymentgateway.dto.RefundRequest;
+import com.paymentgateway.service.PaymentService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
