@@ -1,4 +1,4 @@
-package com.brillio.paymentgateway.model;
+package com.paymentgateway.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
