@@ -1,4 +1,4 @@
-package com.brillio.paymentgateway.model;
+package com.paymentgateway.model;
 
 public enum PaymentMethod {
     CREDIT_CARD,
