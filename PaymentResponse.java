@@ -1,8 +1,8 @@
 package com.paymentgateway.dto;
 
-import com.brillio.paymentgateway.model.Payment;
-import com.brillio.paymentgateway.model.PaymentMethod;
-import com.brillio.paymentgateway.model.PaymentStatus;
+import com.paymentgateway.model.Payment;
+import com.paymentgateway.model.PaymentMethod;
+import com.paymentgateway.model.PaymentStatus;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
