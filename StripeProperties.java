@@ -1,4 +1,4 @@
-package com.brillio.paymentgateway.service.stripe;
+package com.paymentgateway.service.stripe;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
