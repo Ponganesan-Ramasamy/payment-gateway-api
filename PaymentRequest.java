@@ -1,4 +1,4 @@
-package com.brillio.paymentgateway.dto;
+package com.paymentgateway.dto;
 
 import com.brillio.paymentgateway.model.PaymentMethod;
 import jakarta.validation.constraints.*;
