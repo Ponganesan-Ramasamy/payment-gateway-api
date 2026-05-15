@@ -1,11 +1,11 @@
-package com.brillio.paymentgateway;
+package com.paymentgateway;
 
-import com.brillio.paymentgateway.dto.PaymentRequest;
-import com.brillio.paymentgateway.exception.PaymentProcessingException;
-import com.brillio.paymentgateway.model.Payment;
-import com.brillio.paymentgateway.model.PaymentMethod;
-import com.brillio.paymentgateway.model.PaymentStatus;
-import com.brillio.paymentgateway.service.PaymentService;
+import com.paymentgateway.dto.PaymentRequest;
+import com.paymentgateway.exception.PaymentProcessingException;
+import com.paymentgateway.model.Payment;
+import com.paymentgateway.model.PaymentMethod;
+import com.paymentgateway.model.PaymentStatus;
+import com.paymentgateway.service.PaymentService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
