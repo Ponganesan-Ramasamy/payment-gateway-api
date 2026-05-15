@@ -1,4 +1,4 @@
-package com.brillio.paymentgateway.security;
+package com.paymentgateway.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
