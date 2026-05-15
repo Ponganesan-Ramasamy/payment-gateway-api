@@ -1,8 +1,8 @@
-package com.brillio.paymentgateway.service.stripe;
+package com.paymentgateway.service.stripe;
 
-import com.brillio.paymentgateway.dto.PaymentRequest;
-import com.brillio.paymentgateway.dto.RefundRequest;
-import com.brillio.paymentgateway.service.PaymentGatewayClient;
+import com.paymentgateway.dto.PaymentRequest;
+import com.paymentgateway.dto.RefundRequest;
+import com.paymentgateway.service.PaymentGatewayClient;
 import com.stripe.Stripe;
 import com.stripe.exception.StripeException;
 import com.stripe.model.PaymentIntent;
