@@ -1,4 +1,4 @@
-package com.brillio.paymentgateway.exception;
+package com.paymentgateway.exception;
 
 public class PaymentProcessingException extends RuntimeException {
     public PaymentProcessingException(String message) {
