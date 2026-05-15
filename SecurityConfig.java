@@ -1,4 +1,4 @@
-package com.brillio.paymentgateway.security;
+package com.paymentgateway.security;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
