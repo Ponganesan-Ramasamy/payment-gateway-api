@@ -1,6 +1,6 @@
 package com.paymentgateway.dto;
 
-import com.brillio.paymentgateway.model.PaymentMethod;
+import com.paymentgateway.model.PaymentMethod;
 import jakarta.validation.constraints.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
