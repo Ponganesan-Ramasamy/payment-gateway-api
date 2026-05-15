@@ -121,4 +121,4 @@ mvn clean verify
 
 ## License
 
-Internal — Brillio Technologies Private Limited.
+
