@@ -1,4 +1,4 @@
-package com.brillio.paymentgateway.dto;
+package com.paymentgateway.dto;
 
 import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.NotNull;
