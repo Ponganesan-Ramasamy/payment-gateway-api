@@ -1,4 +1,4 @@
-package com.brillio.paymentgateway.security;
+package com.paymentgateway.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
