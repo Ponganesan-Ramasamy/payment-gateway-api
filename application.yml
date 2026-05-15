@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: dev
+security:
+  jwt:
+    secret: dGhpcy1pcy1hLWRldi1vbmx5LXNlY3JldC1jaGFuZ2UtbWUtcGxlYXNlLXN0YXQ=
+    expiration-minutes: 60
+  users:
+    admin-username: admin
+    admin-password: admin123
+payment:
+  gateway:
+    provider: mock

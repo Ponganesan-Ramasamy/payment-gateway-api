@@ -1,0 +1,41 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: payment-postgres
+    environment:
+      POSTGRES_DB: paymentdb
+      POSTGRES_USER: payment
+      POSTGRES_PASSWORD: payment
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U payment -d paymentdb"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  payment-gateway-service:
+    build: .
+    container_name: payment-gateway-service
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      SPRING_PROFILES_ACTIVE: postgres
+      DB_URL: jdbc:postgresql://postgres:5432/paymentdb
+      DB_USER: payment
+      DB_PASSWORD: payment
+      JWT_SECRET: ${JWT_SECRET:-dGhpcy1pcy1hLWRldi1vbmx5LXNlY3JldC1jaGFuZ2UtbWUtcGxlYXNlLXN0YXQ=}
+      PAYMENT_PROVIDER: ${PAYMENT_PROVIDER:-mock}
+      STRIPE_API_KEY: ${STRIPE_API_KEY:-}
+      RAZORPAY_KEY_ID: ${RAZORPAY_KEY_ID:-}
+      RAZORPAY_KEY_SECRET: ${RAZORPAY_KEY_SECRET:-}
+    ports:
+      - "8080:8080"
+
+volumes:
+  postgres-data:
