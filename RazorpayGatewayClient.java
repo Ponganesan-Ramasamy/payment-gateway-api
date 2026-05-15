@@ -1,8 +1,8 @@
-package com.brillio.paymentgateway.service.razorpay;
+package com.paymentgateway.service.razorpay;
 
-import com.brillio.paymentgateway.dto.PaymentRequest;
-import com.brillio.paymentgateway.dto.RefundRequest;
-import com.brillio.paymentgateway.service.PaymentGatewayClient;
+import com.paymentgateway.dto.PaymentRequest;
+import com.paymentgateway.dto.RefundRequest;
+import com.paymentgateway.service.PaymentGatewayClient;
 import com.razorpay.Order;
 import com.razorpay.Payment;
 import com.razorpay.RazorpayClient;
