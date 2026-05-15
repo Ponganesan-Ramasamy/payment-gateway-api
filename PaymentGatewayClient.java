@@ -1,7 +1,7 @@
-package com.brillio.paymentgateway.service;
+package com.paymentgateway.service;
 
-import com.brillio.paymentgateway.dto.PaymentRequest;
-import com.brillio.paymentgateway.dto.RefundRequest;
+import com.paymentgateway.dto.PaymentRequest;
+import com.paymentgateway.dto.RefundRequest;
 
 public interface PaymentGatewayClient {
 
