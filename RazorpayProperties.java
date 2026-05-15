@@ -1,4 +1,4 @@
-package com.brillio.paymentgateway.service.razorpay;
+package com.paymentgateway.service.razorpay;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
