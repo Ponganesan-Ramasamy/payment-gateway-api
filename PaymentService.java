@@ -1,12 +1,12 @@
-package com.brillio.paymentgateway.service;
+package com.paymentgateway.service;
 
-import com.brillio.paymentgateway.dto.PaymentRequest;
-import com.brillio.paymentgateway.dto.RefundRequest;
-import com.brillio.paymentgateway.exception.PaymentNotFoundException;
-import com.brillio.paymentgateway.exception.PaymentProcessingException;
-import com.brillio.paymentgateway.model.Payment;
-import com.brillio.paymentgateway.model.PaymentRepository;
-import com.brillio.paymentgateway.model.PaymentStatus;
+import com.paymentgateway.dto.PaymentRequest;
+import com.paymentgateway.dto.RefundRequest;
+import com.paymentgateway.exception.PaymentNotFoundException;
+import com.paymentgateway.exception.PaymentProcessingException;
+import com.paymentgateway.model.Payment;
+import com.paymentgateway.model.PaymentRepository;
+import com.paymentgateway.model.PaymentStatus;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
